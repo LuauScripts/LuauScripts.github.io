@@ -1,4 +1,10 @@
-if (window.location.href === "https://luauscripts.github.io/index.html") {
-  window.location.href = "https://luauscripts.github.io/index.html";
-  window.location.replace("https://luauscripts.gituhb.io/");
-}
+window.onload = function () {
+  if (window.location.href === "https://luauscripts.github.io/index.html") {
+    noIndex()
+  }
+  function noIndex() {
+    location.replace("https://luauscripts.github.io/")
+  }
+  else if (window.location.href === "https://luauscripts.github.io/") {
+  }
+};
