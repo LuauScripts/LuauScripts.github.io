@@ -1,2 +1,2 @@
-# LuauScripts.github.io
-Luau Scripts Website!
+# Luau Scripts
+[Luau Scripts Website!](LuauScripts.github.io)
